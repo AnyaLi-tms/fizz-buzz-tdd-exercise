@@ -2,6 +2,8 @@ public class FizzBuzz {
     public String countOff(int i) {
         if(i % 3 == 0 && i % 5 == 0) {
             return "FizzBuzz";
+        } else if (i % 3 == 0 && i % 7 == 0) {
+            return "FizzWhizz";
         } else if (i % 5 == 0) {
             return "Buzz";
         } else if (i % 3 == 0) {
