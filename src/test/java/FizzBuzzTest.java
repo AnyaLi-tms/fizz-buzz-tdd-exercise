@@ -10,6 +10,6 @@ public class FizzBuzzTest {
         // When
         String result = fizzBuzz.countOff(2);
         // Then
-        assertEquals(2, result);
+        assertEquals("2", result);
     }
 }
