@@ -6,7 +6,10 @@ public class FizzBuzz {
             return "Buzz";
         } else if (i % 3 == 0) {
             return "Fizz";
+        } else if (i % 7 == 0) {
+            return "Whizz";
         }
+
         return i + "";
     }
 }

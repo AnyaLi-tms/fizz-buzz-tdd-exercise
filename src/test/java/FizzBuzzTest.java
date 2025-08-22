@@ -51,4 +51,5 @@ public class FizzBuzzTest {
         // Then
         assertEquals("Whizz", result);
     }
+
 }
