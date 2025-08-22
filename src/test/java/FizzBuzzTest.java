@@ -6,10 +6,10 @@ public class FizzBuzzTest {
     @Test
     void should_itself_given_normal_number_when_count_off() {
         // Given
-        FizzBuzz fizzBuzz = new FizzBuzz(2);
+        FizzBuzz fizzBuzz = new FizzBuzz();
         // When
-        fizzBuzz.countOff();
+        String result = fizzBuzz.countOff(2);
         // Then
-        assertEquals(2, fizzBuzz.getFizzBuzzCount());
+        assertEquals(2, result);
     }
 }
