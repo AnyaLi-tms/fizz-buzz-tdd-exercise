@@ -61,4 +61,14 @@ public class FizzBuzzTest {
         // Then
         assertEquals("FizzWhizz", result);
     }
+
+    @Test
+    void should_buzz_whizz_given_normal_number_when_count_off() {
+        // Given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        // When
+        String result = fizzBuzz.countOff(35);
+        // Then
+        assertEquals("BuzzWhizz", result);
+    }
 }
